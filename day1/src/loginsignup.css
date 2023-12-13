@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swaphttps://fonts.google.com/specimen/Dhurjati?preview.text=ertyuiuhcxcvkl');
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 460px;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.848);
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.inputs{
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 70px;
+    background: rgba(218, 203, 203, 0.45);
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input input{
+    height: 30px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.forgotpassword{
+    display: flex;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.forgotpassword span{
+    padding-left:147px;
+    color: rgb(211, 199, 199);
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.forgotpassword label{
+    margin-top: 15px;
+    padding-left: 28px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.submitcontainer{
+    display:flex;
+    margin: -15px 0 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight:400;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+}
